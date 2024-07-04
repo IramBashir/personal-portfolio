@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Routes from './Routes';
+import AppRoutes from './AppRoutes';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {
@@ -22,7 +22,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <Header />
-        <Routes />
+        <AppRoutes />
         <Footer />
       </Router>
     </ThemeProvider>
