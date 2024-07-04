@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/IramBashir/personal-portfolio/static/js/main.92b1b1f9.js",
-    "index.html": "/IramBashir/personal-portfolio/index.html",
-    "main.92b1b1f9.js.map": "/IramBashir/personal-portfolio/static/js/main.92b1b1f9.js.map"
+    "main.js": "/personal-portfolio/static/js/main.2934d31a.js",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2934d31a.js.map": "/personal-portfolio/static/js/main.2934d31a.js.map"
   },
   "entrypoints": [
-    "static/js/main.92b1b1f9.js"
+    "static/js/main.2934d31a.js"
   ]
 }
