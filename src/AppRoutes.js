@@ -10,11 +10,11 @@ import NotFound from './components/NotFound';
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<NotFound />} />
+      <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+      <Route path={`${process.env.PUBLIC_URL}/about`} element={<About />} />
+      <Route path={`${process.env.PUBLIC_URL}/projects`} element={<Projects />} />
+      <Route path={`${process.env.PUBLIC_URL}/contact`} element={<Contact />} />
+      <Route path={`${process.env.PUBLIC_URL}/*`} element={<NotFound />} />
     </Routes>
   );
 };

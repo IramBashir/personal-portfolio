@@ -18,9 +18,11 @@ const theme = {
 };
 
 function App() {
+  const basename = process.env.NODE_ENV === 'development' ? '/' : '/personal-portfolio';
+  
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename={basename}>
         <Header />
         <AppRoutes />
         <Footer />
